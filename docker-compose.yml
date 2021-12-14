@@ -19,4 +19,4 @@ services:
     #  - "1389:1389"
     network_mode: host
 # put CLI commands here to override defaults
-    command: --hostname 0.0.0.0 --http-host 0.0.0.0 --http-port 8000 --ldap-host 0.0.0.0 --ldap-port 1389 --redis-url "redis://redis:6379"
+    command: --hostname 0.0.0.0 --http-host 0.0.0.0 --http-port 8000 --ldap-host 0.0.0.0 --ldap-port 1389 --redis-url "redis://localhost:6379"
